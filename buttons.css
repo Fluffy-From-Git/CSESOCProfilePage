@@ -1,0 +1,27 @@
+
+.info{
+    background-color: rgb(253, 253, 175);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border:none;
+    color: rgb(150, 202 , 253);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    transition: background-color 0.2s,
+        color 0.2s,
+        box-shadow 0.2;
+    font-family: 'Varela Round';
+
+}
+.info:hover{
+    background-color: rgb(150, 202 , 253);
+    color: rgb(253, 253, 175);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15)
+}
+.info:active{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
